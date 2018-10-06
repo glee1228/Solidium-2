@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/1.0.2/css/froala_blocks.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<style>
+.fdb-block2 {
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    color: #444;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-color: #fff;
+}
+</style>
+<body>
+<header data-block-type="headers" data-id="12" class="">
+  <div class="container">
+    <nav class="navbar navbar-expand-md no-gutters">
+      <div class="col-3 text-left">
+        <a href="localhost:8080/WhoAreYou/main.html">
+            <img src="assets/img/logo3.png" height="30" alt="image">
+          </a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse-2" aria-controls="navbarNav7" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse navbar-collapse-2 justify-content-center col-md-6" id="navbarNav7">
+        <ul class="navbar-nav justify-content-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.froala.com">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.froala.com">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.froala.com">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.froala.com">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.froala.com">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-collapse-2">
+        <ul class="navbar-nav ml-auto justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target="#LoginModal">Log In</a>
+          </li>
+        </ul>
+
+        <a class="btn ml-md-3" data-toggle="modal" data-target="#RegisterModal">Register</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- LoginModal  -->
+
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="LoginModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <section class="fdb-block2 fp-active" style="background-image: assets/img/sidebar-4.jpg" data-block-type="forms" data-id="1" draggable="true">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-7 col-xl-5 text-center">
+        <div class="fdb-box fdb-touch">
+          <div class="row">
+            <div class="col">
+              <h1>Log In</h1>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <input type="password" class="form-control mb-1" placeholder="Password">
+              <p class="text-right"><a href="https://www.froala.com">Recover Password</a></p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <button class="btn" type="button">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      </div>
+  </div>
+</div>
+<!-- /RegisterModal -->
+<!-- RegisterModal  -->
+
+<div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="RegisterModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="RegisterModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <section class="fdb-block2 fp-active"  data-block-type="forms" data-id="1" draggable="true">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-8 col-xl-6">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Register</h1>
+            <p class="text-h3">Register and recognize your own walking steps and ears.</p>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col mt-4">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+        </div>
+        <div class="row align-items-center mt-4">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+        </div>
+        <div class="row align-items-center mt-4">
+          <div class="col">
+            <input type="password" class="form-control" placeholder="Password">
+          </div>
+        </div>
+        <div class="row align-items-center mt-4">
+          <div class="col">
+            <input type="password" class="form-control" placeholder="Confirm Password">
+          </div>
+        </div>
+        <div class="row justify-content-start mt-4">
+          <div class="col">
+            <div class="form-check">
+              <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input">
+                  I Read and Accept <a href="https://www.froala.com">Terms and Conditions</a>
+                </label>
+            </div>
+            <button class="btn mt-4">Submit</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      </div>
+      </div>
+  </div>
+</div>
+<!-- /RegisterModal -->
+<section class="fdb-block" data-block-type="contents" data-id="13" draggable="true">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 col-lg-5">
+        <h1>SOLIDIUM #2</h1>
+        <p class="text-h3">
+It recognizes the identity of a person who is registered only by gait and ears, which is different from existing biometrics method.</p>
+      </div>
+      <div class="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
+        <img alt="image" class="img-fluid" src="https://www.comprompt.co.in/wp-content/uploads/2013/09/comprompt-services-security_solutions.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="fdb-block" data-block-type="call_to_action" data-id="20" draggable="true">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-5 text-center pb-md-5">
+          <h1>걸음걸이와 귀를 등록하고 테스트해보세요.</h1>
+          <p class="text-h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+          <p class="mt-4"><a href="https://www.froala.com" class="btn">바로가기</a></p>
+        </div>
+      </div>
+
+      <div class="row text-center justify-content-center pt-5">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <img alt="image" class="fdb-icon" height="80" width="120" src="https://cdn-images-1.medium.com/max/1200/1*oVTetBH6worv5grwvSFkxw.png">
+
+          <h3><strong>Feature One</strong></h3>
+
+          <p>Far far away, behind the word mountains, far from the countries</p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 pt-4 pt-sm-0">
+          <img alt="image" height="80" width="120" class="fdb-icon" src="http://3.bp.blogspot.com/-JhYfgS7dj0E/T1hYeT73fDI/AAAAAAAAAa4/XthIKIigXsc/s400/mod_ears.jpg">
+
+          <h3><strong>Feature Two</strong></h3>
+
+          <p>Separated they live in Bookmarksgrove right at the coast</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 pt-4 pt-lg-0">
+          <img alt="image" class="fdb-icon" src="https://editor-latest.s3.amazonaws.com/design-blocks/block_images/img_round.svg">
+
+          <h3><strong>Feature Three</strong></h3>
+
+          <p>A small river named Duden flows by their place and supplies it</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 pt-4 pt-lg-0">
+          <img alt="image" class="fdb-icon" src="https://editor-latest.s3.amazonaws.com/design-blocks/block_images/img_round.svg">
+
+          <h3><strong>Feature Four</strong></h3>
+
+          <p>Far far away, behind the word mountains, far from the countries</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<section class="fdb-block fp-active" data-block-type="features" data-id="14" draggable="true">
+  <div class="container">
+    <div class="row justify-content-center pb-5">
+      <div class="col-12 text-center">
+        <h1>Froala Design Blocks</h1>
+      </div>
+    </div>
+
+    <div class="row text-left align-items-center pt-5 pb-md-5">
+      <div class="col-4 col-md-5">
+        <img alt="image" class="img-fluid" src="https://cdn-images-1.medium.com/max/1200/1*oVTetBH6worv5grwvSFkxw.png">
+      </div>
+
+      <div class="col-12 col-md-5 m-md-auto">
+        <h2><strong>Feature One</strong></h2>
+        <p class="text-h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <p><a href="https://www.froala.com">Learn More &gt;</a></p>
+      </div>
+    </div>
+
+    <div class="row text-left align-items-center pt-5 pb-md-5">
+      <div class="col-4 col-md-5 m-md-auto order-md-5">
+        <img alt="image" class="img-fluid" src="http://3.bp.blogspot.com/-JhYfgS7dj0E/T1hYeT73fDI/AAAAAAAAAa4/XthIKIigXsc/s400/mod_ears.jpg">
+      </div>
+
+      <div class="col-12 col-md-5">
+        <h2><strong>Feature Two</strong></h2>
+        <p class="text-h3">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+        <p><a href="https://www.froala.com">Learn More &gt;</a></p>
+      </div>
+    </div>
+
+    <div class="row text-left align-items-center pt-5">
+      <div class="col-4 col-md-5">
+        <img alt="image" class="img-fluid" src="https://editor-latest.s3.amazonaws.com/design-blocks/block_images/img_square_2.svg">
+      </div>
+
+      <div class="col-12 col-md-5 m-md-auto">
+        <h2><strong>Feature Three</strong></h2>
+        <p class="text-h3">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn
+          around.</p>
+        <p><a href="https://www.froala.com">Learn More &gt;</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="fdb-block team-8" data-block-type="teams" data-id="24" draggable="true">
+  <div class="container">
+    <div class="row text-center justify-content-center">
+      <div class="col-8">
+        <h1>Our Amazing Team</h1>
+        <p class="text-h3">Team's Introduce</p>
+        <p class="text-h4">Solidium#2는 걸음걸이와 귀를 형성하는 복잡하고 다양한 범주 속 정보들의 패턴을 분석하고, 
+        <br>인공지능 학습을 토대로 실생활과 의료,범죄예방 분야 발전에 기여하는 데 힘쓰고 있습니다.  </p>
+      </div>
+    </div>
+
+    <div class="row-100"></div>
+
+    <div class="row justify-content-center text-left">
+      <div class="col-sm-6">
+        <div class="row align-items-center">
+          <div class="col-4">
+            <img alt="image" class="img-fluid" src="assets/img/ys.png">
+          </div>
+
+          <div class="col-8">
+            <h3><strong>오윤석</strong></h3>
+            <p class="text-h3">Team Leader&Project Manager</p>
+
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="row align-items-center">
+          <div class="col-4">
+            <img alt="image" class="img-fluid" src="assets/img/dh.png">
+          </div>
+
+          <div class="col-8">
+            <h3><strong>이동훈</strong></h3>
+            <p class="text-h3">Ears Pattern Analyst&Developer</p>
+
+            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row-70"></div>
+
+    <div class="row justify-content-center text-left">
+      <div class="col-sm-6">
+        <div class="row align-items-center">
+          <div class="col-4">
+            <img alt="image" class="img-fluid" src="assets/img/hj.png">
+          </div>
+
+          <div class="col-8">
+            <h3><strong>임혜진</strong></h3>
+            <p class="text-h3">Ears Analyst&Designer</p>
+
+            <p>One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="row align-items-center">
+          <div class="col-4">
+            <img alt="image" class="img-fluid" src="assets/img/jh.png">
+          </div>
+
+          <div class="col-8">
+            <h3><strong>손정효</strong></h3>
+            <p class="text-h3">Gait Pattern Analyst&Developer</p>
+
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row-70"></div>
+
+    <div class="row justify-content-center text-left">
+      <div class="col-sm-6">
+        <div class="row align-items-center">
+          <div class="col-4">
+            <img alt="image" class="img-fluid" src="assets/img/dj.png">
+          </div>
+
+          <div class="col-8">
+            <h3><strong>이동준</strong></h3>
+            <p class="text-h3">Ears Analyst&Hardware Manager</p>
+
+            <p>One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="row align-items-center">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="fdb-block footer-small" data-block-type="footers" data-id="15">
+  <div class="container">
+    <div class="row text-center align-items-center">
+      <div class="col-12 col-lg-2 text-lg-left">
+        <img alt="image" src="assets/img/logo3.png" height="40">
+      </div>
+
+      <div class="col mt-4 mt-lg-0 text-center">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.froala.com">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.froala.com">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.froala.com">Privacy Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.froala.com">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.froala.com">About</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-lg-2 mt-4 mt-lg-0 text-lg-right">
+        <a href="https://www.froala.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;&nbsp;
+        <a href="https://www.froala.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;
+        <a href="https://www.froala.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;
+        <a href="https://www.froala.com"><i class="fa fa-pinterest" aria-hidden="true"></i></a>&nbsp;&nbsp;
+        <a href="https://www.froala.com"><i class="fa fa-google" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col text-center">
+        © 2017 Solidium#2. All Rights Reserved
+      </div>
+    </div>
+  </div>
+</footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
